@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 40px 20px 0px;
+}
+
+header h1 {
+    color: #f48fb1;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #666;
+}
+
+/* Contenido general */
+main {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Imagen */
+.imagen img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Formulario */
+.formulario {
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ec407a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    background: #fff0f5;
+    margin-top: 40px;
+}
+
+/* Responsive (ya viene bien) */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+        margin: 20px;
+    }
+}

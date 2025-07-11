@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Carla Funes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>¡Hablemos!</h1>
+        <p>Escribime tu consulta o mensaje</p>
+    </header>
+
+    <main class="contenido">
+        <div class="imagen">
+            <img src="https://undraw.co/api/illustrations/798f3dc0-cb7a-4f7f-bb92-8c818a2ebd1c" alt="">
+        </div>
+
+        <section class="formulario">
+            <form action="guardar.php" method="POST">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ej: Carla Funes" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email" placeholder="Ej: carla@email.com" required>
+
+                <label for="mensaje">Tu mensaje</label>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribí tu mensaje..." required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Carla Funes. Hecho con 💗 desde Bialet Massé.</p>
+    </footer>
+</body>
+</html>
